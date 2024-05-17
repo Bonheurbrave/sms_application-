@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homepage {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.adminlogin {
+  background-image: url("./images/adminloginbackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vt {
+  writing-mode: vertical-lr;
+}
+.c {
+  animation: bon 0.3s linear infinite;
+}
+@keyframes bon {
+  100% {
+    text-shadow: 0 2px aqua;
+  }
+}
+
+.gte {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.bggrd {
+  /* background:linear-gradient(to-right-bottom , blue , aqua , violet) */
+  background: linear-gradient(rgb(76, 76, 147), rgb(65, 62, 62));
+}
+.bg-menu{
+  background:rgba(0,0,0,.82);
+}
